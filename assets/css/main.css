@@ -5,5 +5,28 @@ tags e separa com virgula
 */
 h1, p , h2{
     color: #005599;
-    text-align
+    text-align: center
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    width: 100vw;
+    height: 30px;
+    background-color: #9b518e;
+}
+
+.banner {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background: url(../img/back.png) center center /100% 100% scroll;
+    background-size: cover;
 }
